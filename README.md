@@ -24,4 +24,6 @@ yarn dev
 
 ### IAC & Deployment
 - Infrastructure as Code - Serverless Framework
-- Built and deployed via Github Actions.  
+- Built and deployed via Github Actions.
+
+![Master CI/CD](https://github.com/mjmitchell86/mattmitchell-dev/workflows/Master%20CI/CD/badge.svg?branch=master&event=push)
