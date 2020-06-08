@@ -1,6 +1,7 @@
 # Matt Mitchell - Dev
 
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://mattmitchell.dev)
+
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://mattmitchell.dev)
 
 ### Features
