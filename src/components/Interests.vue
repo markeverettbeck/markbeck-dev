@@ -6,7 +6,9 @@
       <p>
         In the summer you can usually find me somewhere near our small koi pond outside. For days that are too hot, I may have made a website so that I can watch my Koi from the comfort of... anywhere. Feel free to
         <a
-          href="https://www.mattskoipond.com"
+          href="https://www.mattskoipond.com
+          target="_blank"
+          rel="noopener noreferrer
         >check it out!</a>
       </p>
       <p>
