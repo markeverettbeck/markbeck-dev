@@ -10,6 +10,8 @@
       <Interests />
       <hr class="m-0" />
       <Awards />
+      <hr class="m-0" />
+      <Accolades />
     </div>
   </Layout>
 </template>
@@ -20,6 +22,7 @@ import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
 import Awards from "../components/Awards";
+import Accolades from "../components/Accolades";
 
 export default {
   components: {
@@ -27,7 +30,8 @@ export default {
     Experience,
     Skills,
     Interests,
-    Awards
+    Awards,
+    Accolades
   },
   metaInfo: {
     title: "Matt Mitchell's Resume",

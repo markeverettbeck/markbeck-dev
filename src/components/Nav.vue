@@ -28,6 +28,9 @@
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Certifications &amp; Awards</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#accolades')">Accolades</a>
+        </li>
       </ul>
     </div>
   </nav>
