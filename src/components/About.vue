@@ -15,7 +15,7 @@
         </p>
       </div>
       <p class="lead mb-5">
-        I am an innovative, ever-learning, ever-growing, Senior Software Engineer that loves to explore new technologies.
+        I am an innovative, pragmatic, ever-learning, ever-growing, Senior Software Engineer that loves to explore new technologies.
         I am a full stack .Net engineer as well as proficient with NodeJS (JavaScript and Typescript) that loves to advocate for cloud technologies.
         I have experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
         I am an expert do-er, well-versed in different development methodologies, tools and processes contributing to the design and rollout of cutting-edge software applications.
