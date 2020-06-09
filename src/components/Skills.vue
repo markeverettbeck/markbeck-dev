@@ -33,16 +33,17 @@
           <font-awesome :icon="['fab', 'vuejs']" />
         </li>
       </ul>
+
       <div class="flex-container">
         <p class="skills">NodeJS</p>
         <p class="skills">.Net Framework &amp; .Net Core</p>
+        <p class="skills">Serverless Framework</p>
         <p class="skills">AWS DynamoDB</p>
         <p class="skills">AWS Lambda</p>
         <p class="skills">AWS Step Functions</p>
         <p class="skills">AWS S3</p>
         <p class="skills">C#</p>
         <p class="skills">Javascript &amp; Typescript</p>
-        <p class="skills">Serverless Framework</p>
         <p class="skills">REST &amp; GraphQL</p>
         <p class="skills">Docker</p>
         <p class="skills">CircleCI</p>
