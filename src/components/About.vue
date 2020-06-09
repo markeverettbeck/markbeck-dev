@@ -15,8 +15,11 @@
         </p>
       </div>
       <p class="lead mb-5">
-        I am an ever learning, ever growing, Senior Software Engineer that loves to explore new technologies.
-        My day job, I am a full stack .Net engineer as well as proficient with NodeJS (JavaScript and Typescript) that loves to push towards cloud technologies.
+        I am an innovative, ever learning, ever growing, Senior Software Engineer that loves to explore new technologies.
+        I am a full stack .Net engineer as well as proficient with NodeJS (JavaScript and Typescript) that loves to advocate for cloud technologies.
+        I have experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
+        I am an expert do-er, well versed in different development methodologies, tools and processes contributing to the design and rollout of cutting-edge software applications.
+        I'm known for excellent troubleshooting skills – able to analyze code and engineer well-researched, cost-effective and responsive solutions.
         On the side, I dive into IOT solutions for problems no one really has! I also love to make Amazon Echo skills and am a big proponent of Serverless technologies.
       </p>
       <div class="social-icons">
