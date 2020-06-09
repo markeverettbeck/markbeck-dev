@@ -7,14 +7,14 @@
         <div class="resume-content">
           <h3 class="mb-0">Leads By Example</h3>
           <div class="subheading mb-3">By Quicken Loans / Rock Central · Team Leader</div>
-          <blockquote>"With the level of expertise and poise Matt brings to his role, he sets a fantastic example for the engineers around him to aspire to. He defaults to open and aims to not only better himeslf, but to better his team and those around him as well."</blockquote>
+          <blockquote>"With the level of expertise and poise Matt brings to his role, he sets a fantastic example for the engineers around him to aspire to. He defaults to open and aims to not only better himself, but to better his team and those around him as well."</blockquote>
         </div>
       </div>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
           <h3 class="mb-0">Team Player</h3>
           <div class="subheading mb-3">By Quicken Loans / Rock Central · Senior Software Engineer</div>
-          <blockquote>"Matt is a tier 1 engineer. He is constantly learning and challenging himeslf to become better and challenging the team to do the same. He always comes to the table with new and thoughtful ideas of how to solve a problem for the team. Matt will improve whatever team he is on."</blockquote>
+          <blockquote>"Matt is a tier 1 engineer. He is constantly learning and challenging himself to become better and challenging the team to do the same. He always comes to the table with new and thoughtful ideas of how to solve a problem for the team. Matt will improve whatever team he is on."</blockquote>
         </div>
       </div>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
