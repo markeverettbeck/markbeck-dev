@@ -13,7 +13,7 @@
           >Designed and Built an interface for all Team Member data to be used by all internal applications. This was a hybrid on-prem/cloud solution that leveraged AWS Database Migration Service, MSSQL, AWS Aurora(MySQL), AWS Lambda, AWS API Gateway, Apollo GraphQL and the Serverless Framework.</p>
           <p
             class="experience"
-          >Designed and Built multiple services to sync internal data with third party SAAS solutions. These services where NodeJS applications hosted on AWS Lambda that leveraged AWS API Gateway and the Serverless Framework.</p>
+          >Designed and Built multiple services to sync internal data with third party SAAS solutions. These services were NodeJS applications hosted on AWS Lambda that leveraged AWS API Gateway and the Serverless Framework.</p>
           <p
             class="experience"
           >Built Log Exporting system for AWS Cloudwatch to Splunk. This service was built as a NodeJS application on AWS Lambda that leveraged Cloudwatch Log Streams and the Serverless Framework.</p>
