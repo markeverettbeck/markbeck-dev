@@ -26,4 +26,4 @@ yarn dev
 - Infrastructure as Code - Serverless Framework
 - Built and deployed via Github Actions.
 
-![Master CI/CD](https://github.com/mjmitchell86/markbeck-dev/workflows/Master%20CI/CD/badge.svg?branch=master&event=push)
+![Master CI/CD](https://github.com/markeverettbeck/markbeck-dev/workflows/Master%20CI/CD/badge.svg?branch=master&event=push)
