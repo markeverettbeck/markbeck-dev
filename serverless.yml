@@ -88,7 +88,7 @@ resources:
           DNSName:
             "Fn::GetAtt": [MarkBeckDevCloudFrontDistribution, DomainName]
           EvaluateTargetHealth: false
-          HostedZoneId: Z05127491JUTL7HISP0ZQ # CloudFront Hosted Zone ID cloudfront.net (NOT CUSTOM DOMAIN)
+          HostedZoneId: Z2FDTNDATAQYW2 # CloudFront Hosted Zone ID cloudfront.net (STATIC ID NOT CUSTOM DOMAIN)
         HostedZoneName: ${self:custom.hostedZoneNameMap.${self:provider.stage}}
         Name: ${self:custom.domainMap.${self:provider.stage}}
         Type: A
