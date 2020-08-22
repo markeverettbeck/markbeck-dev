@@ -19,7 +19,7 @@ custom:
   domainMap:
     prod: markbeck.dev
   certificateArnMap:
-    prod: arn:aws:acm:us-east-1:205844185710:certificate/a88b723c-4782-4675-a44f-9c4603867490
+    prod: arn:aws:acm:us-east-2:812080535189:certificate/a8369535-938e-4163-96da-ed3cb229047e
   cloudfrontInvalidate:
     distributionIdKey: "MarkBeckDevCloudFrontDistributionId"
     items:
@@ -88,7 +88,7 @@ resources:
           DNSName:
             "Fn::GetAtt": [MarkBeckDevCloudFrontDistribution, DomainName]
           EvaluateTargetHealth: false
-          HostedZoneId: Z2FDTNDATAQYW2 # CloudFront Hosted Zone ID cloudfront.net (NOT CUSTOM DOMAIN)
+          HostedZoneId: Z05127491JUTL7HISP0ZQ # CloudFront Hosted Zone ID cloudfront.net (NOT CUSTOM DOMAIN)
         HostedZoneName: ${self:custom.hostedZoneNameMap.${self:provider.stage}}
         Name: ${self:custom.domainMap.${self:provider.stage}}
         Type: A
