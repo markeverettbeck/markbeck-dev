@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
-      <span class="d-block d-lg-none">Matt Mitchell</span>
+      <span class="d-block d-lg-none">Mark Beck</span>
       <span class="d-none d-lg-block">
         <g-image
           alt="Image of Matt"
@@ -14,7 +14,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>
@@ -23,10 +23,10 @@
           <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests &amp; Passions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Certifications &amp; Awards</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Certifications</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#accolades')">Accolades</a>
@@ -49,7 +49,7 @@
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #19824a;
 }
 
 @media (min-width: 992px) {

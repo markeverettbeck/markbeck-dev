@@ -34,7 +34,7 @@ export default {
     Accolades
   },
   metaInfo: {
-    title: "Matt Mitchell's Resume",
+    title: "Mark Beck's Resume",
     titleTemplate: "%s"
   }
 };

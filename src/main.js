@@ -12,10 +12,15 @@ import {
   faTrophy,
   faRss,
   faCheck,
-  faAward
+  faAward,
+  faClock,
 } from '@fortawesome/free-solid-svg-icons'
 import {
+  faAws,
+  faGoogle,
+  faWindows,
   faGithub,
+  faLinux,
   faTwitter,
   faFacebook,
   faLinkedin,
@@ -33,7 +38,11 @@ import {
 } from '@fortawesome/vue-fontawesome'
 
 library.add(
+  faAws,
+  faWindows,
   faGithub,
+  faGoogle,
+  faLinux,
   faTwitter,
   faFacebook,
   faLinkedin,
@@ -46,6 +55,7 @@ library.add(
   faSass,
   faNpm,
   faRss,
+  faClock,
   faCheck,
   faAward,
   faVuejs

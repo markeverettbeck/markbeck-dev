@@ -2,38 +2,39 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
       <h1 class="mb-0">
-        Matt
-        <span class="text-primary">Mitchell</span>
+        Mark
+        <span class="text-primary">Beck</span>
       </h1>
       <div class="subheading mb-5">
-        Sr. Software Engineer
+        Cloud/Infrastructure System Engineer
         <p>
-          Allen Park, MI 48101 · (313) 418-3132 ·
-          <a
-            href="mailto:mjmitchell86@gmail.com"
-          >mjmitchell86@gmail.com</a>
+          Metro Detroit Area, Michigan 
+          <br>(313) 618-3087 
+          <br><a
+            href="mailto:markeverettbeck@gmail.com"
+          >markeverettbeck@gmail.com</a>
         </p>
       </div>
       <p class="lead mb-5">
-        I am an innovative, pragmatic, ever-learning, ever-growing, Senior Software Engineer that loves to explore new technologies.
-        I am a full stack .Net engineer as well as proficient with NodeJS (JavaScript and Typescript) that loves to advocate for cloud technologies.
-        I have experience in the full software development lifecycle – from concept through delivery of next-generation applications and customizable solutions.
-        I am an expert do-er, well-versed in different development methodologies, tools and processes contributing to the design and rollout of cutting-edge software applications.
-        I'm known for excellent troubleshooting skills – able to analyze code and engineer well-researched, cost-effective and responsive solutions.
-        On the side, I dive into IOT solutions for problems no one really has! I also love to make Amazon Echo skills and am a big advocate of Serverless technologies.
+        Strives to grow and the drive to continue moving forward.
+        When knowledge is lacking, quickly jumps into action to gain said knowledge and implement it decisively.
+        Quickly jumps into difficult situations with drive to solve issues to increase productivity and efficiency.
+        Takes positive and negative feed-back and focuses on how to maintain excellence and how to improve troubled areas with an upbeat attitude.
+        Strives to promote proper communications between various aspects of tasks required by job in hopes to increase productivity and company moral.
+        Diligently helps co-workers within areas of his expertise, help directing to where the information could possibly be found, all while staying up to date on personal learning/training. 
       </p>
       <div class="social-icons">
         <a
-          href="https://www.linkedin.com/in/mattmitchelldev"
+          href="https://www.linkedin.com/in/markeverettbeck/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <font-awesome :icon="['fab', 'linkedin']" />
         </a>
-        <a href="https://github.com/mjmitchell86" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/markeverettbeck/" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fab', 'github']" />
         </a>
-        <a href="https://mattmitchell.dev" target="_blank" rel="noopener noreferrer">
+        <a href="https://markbeck.dev" target="_blank" rel="noopener noreferrer">
           <font-awesome :icon="['fas', 'rss']" />
         </a>
       </div>

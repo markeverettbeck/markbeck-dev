@@ -3,63 +3,50 @@
     <div class="w-100">
       <h2 class="mb-5">Skills</h2>
 
-      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+      <div class="subheading mb-3"> Systems &amp; Tools</div>
       <ul class="list-inline dev-icons">
+        <!-- https://fontawesome.com/icons/ -->
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'html5']" title="HTML 5" />
+          <font-awesome :icon="['fab', 'aws']" title="AWS" />
         </li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'css3-alt']" />
+          <font-awesome :icon="['fab', 'windows']" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'google']" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'linux']" />
         </li>
         <li class="list-inline-item">
           <font-awesome :icon="['fab', 'github']" />
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'js-square']" />
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'angular']" />
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'node-js']" />
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'sass']" />
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'npm']" />
-        </li>
-        <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'vuejs']" />
-        </li>
+        </li>        
       </ul>
 
       <div class="flex-container">
-        <p class="skills">NodeJS</p>
-        <p class="skills">.Net Framework &amp; .Net Core</p>
-        <p class="skills">Serverless Framework</p>
+        <p class="skills">Powershell</p>
+        <p class="skills">Terraform</p>
+        <p class="skills">Cloud Formation</p>
         <p class="skills">AWS API Gateway</p>
         <p class="skills">AWS DynamoDB</p>
         <p class="skills">MySQL &amp; MSSQL</p>
         <p class="skills">AWS Lambda</p>
-        <p class="skills">AWS Step Functions</p>
+        <p class="skills">AWS Snowball</p>
         <p class="skills">AWS S3</p>
-        <p class="skills">C#</p>
-        <p class="skills">Javascript &amp; Typescript</p>
-        <p class="skills">VueJS</p>
-        <p class="skills">Angular</p>
-        <p class="skills">REST &amp; GraphQL</p>
         <p class="skills">Docker</p>
-        <p class="skills">CircleCI</p>
-        <p class="skills">SonarQube</p>
+        <p class="skills">Google Cloud Platform</p>
+        <p class="skills">Google Cloud Search</p>
+        <p class="skills">Google </p>
+        <p class="skills">GSuite &amp; Cloud Identity </p>
+        <p class="skills">Google Cloud Security Command Center</p>
         <p class="skills">Github</p>
         <p class="skills">Agile</p>
       </div>
       <br />
-      <div class="subheading mb-3">Workflow</div>
+      <div class="subheading mb-3">Core Practices</div>
       <ul class="fa-ul mb-0">
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']" />Code follows SOLID principles
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />Infrastructure As Code
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />Quality First, Responsible Architecture

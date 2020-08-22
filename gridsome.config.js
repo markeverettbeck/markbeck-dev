@@ -1,7 +1,7 @@
 module.exports = {
-  siteName: 'Matt Mitchell\'s Resume',
-  siteDescription: 'Matt Mitchell\'s Resume as a static serverless site.',
-  siteUrl: 'https://mattmitchell.dev',
+  siteName: 'Mark Beck\'s Resume',
+  siteDescription: 'Mark Beck\'s Resume as a static serverless site.',
+  siteUrl: 'https://markbeck.dev',
   plugins: [{
       use: '@gridsome/plugin-google-analytics',
       options: {

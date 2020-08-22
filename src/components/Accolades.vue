@@ -5,37 +5,37 @@
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Leads By Example</h3>
-          <div class="subheading mb-3">By Quicken Loans / Rock Central · Team Leader</div>
-          <blockquote>"With the level of expertise and poise Matt brings to his role, he sets a fantastic example for the engineers around him to aspire to. He defaults to open and aims to not only better himself, but to better his team and those around him as well."</blockquote>
+          <h3 class="mb-0">Mentors Those Around Him</h3>
+          <div class="subheading mb-3">By Quicken Loans · Senior Communication Engineer</div>
+          <blockquote>"I absolutely love working with Mark. He provides me with amazing learning opportunities. He guides me to the right solutions and teachers me without making me feel like I should know something, even when it is easyt for him."</blockquote>
         </div>
       </div>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Team Player</h3>
-          <div class="subheading mb-3">By Quicken Loans / Rock Central · Senior Software Engineer</div>
-          <blockquote>"Matt is a tier 1 engineer. He is constantly learning and challenging himself to become better and challenging the team to do the same. He always comes to the table with new and thoughtful ideas of how to solve a problem for the team. Matt will improve whatever team he is on."</blockquote>
+          <h3 class="mb-0">Rock Star</h3>
+          <div class="subheading mb-3">By Quicken Loans / Rock Central · Information Security Analyst</div>
+          <blockquote>"Mark Beck is a real rockstar for us. I've been working with Mark for just about two years now and he is always there to help. When it comes to all things security he is always willing to assist and make things better. He is constantly finding all of the inches everywhere around us."</blockquote>
         </div>
       </div>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Widespread Knowledge</h3>
-          <div class="subheading mb-3">By Quicken Loans / Rock Central · Team Leader</div>
-          <blockquote>"Matt is always one of the first team members to vet out new technologies. Matt has been focusing on Serverless, Angular and CI/CD recently and possesses a deep level of knowledge in all of those areas. This has made him the "Go To" resource for other engineers in the company."</blockquote>
+          <h3 class="mb-0">Knowledgable</h3>
+          <div class="subheading mb-3">By Quicken Loans · Senior Software Engineer</div>
+          <blockquote>"I don't think I've been able to stump Mark with a request on something I needed done - he always seems to know off the top of his head what he needs from me and what needs to be done on his end. In short, Mark is everything I've needed in Systems Engineer."</blockquote>
         </div>
       </div>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Champion for Cloud and Serverless</h3>
-          <div class="subheading mb-3">By Quicken Loans / Rock Central · Senior Software Engineer</div>
-          <blockquote>"Matt is constantly learning and bringing new ideas back to the team. He is a champion for Cloud and specifically Serverless within the team and company. His opinion is always sought by not only our team members, but many others in the family of companies evidenced by his inclusion in the Tech Standards discussions. Matt is the epitome of "engineered to amaze". "</blockquote>
+          <h3 class="mb-0">Champion for Cloud</h3>
+          <div class="subheading mb-3">By Quicken Loans / Rock Central · Systems Architect</div>
+          <blockquote>"Besides being a very capable engineer--endlessly energetic on helping solve problems--I think Mark is making steady progress on seeing the bigger picture and making strategically-minded decisions. He's helped steer many of the designs and vendor selections on Google Cloud Search/GCP projects, and virtually brought GCP into the fold (with all the technical hoop-jumping that required) at QL single-handedly. I've observed this strategic approach become more apparent in the past year, with Mark taking proactive moves in researching beneficial products, training, and working with Google to get us better service and solutions for the business."</blockquote>
         </div>
       </div>
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Leading Development</h3>
-          <div class="subheading mb-3">By Quicken Loans / Rock Central · Team Leader</div>
-          <blockquote>"Matt takes charge of breaking down our work and ensuring we're doing things the right way (living up to the standards set by QL Technology and by our Team). He is very vocal in team meetings and planning ceremonies and stays engaged and on-task throughout. When others have questions about how work should be done by our team, Matt is usually involved in that discussion and impacting the outcome."</blockquote>
+          <h3 class="mb-0">Taking It To The Next Level</h3>
+          <div class="subheading mb-3">By Quicken Loans · Team Leader</div>
+          <blockquote>"Mark is very hel;pful and very quick to respond. This is very appreciated as  we like to shorten the handoffs. Once assigned Mark takes ownership very seriously and makes sure that he takes it to the next level."</blockquote>
         </div>
       </div>
     </div>

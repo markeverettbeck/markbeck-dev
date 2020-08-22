@@ -1,5 +1,5 @@
 {
-  "name": "mattmitchell-dev",
+  "name": "markbeck-dev",
   "private": true,
   "scripts": {
     "build": "gridsome build",

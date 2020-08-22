@@ -2,11 +2,11 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
     <div class="w-100">
       <h2 class="mb-5">Interests</h2>
-      <p>Apart from being an engineer, my family recently grew by one. I enjoy spending time with family and being a Dad to two beautiful children.</p>
+      <p>Apart from being an engineer, I enjoy traveling the world and learning to do new things that peek my interests.</p>
       <p>
-        In the summer you can usually find me somewhere near our small koi pond outside. For days that are too hot, I may have made a website so that I can watch my Koi from the comfort of... anywhere. Feel free to
+        I love to take photos, make music, and go on adventures. Some snipits of adventures can be found on instagram, feel free to 
         <a
-          href="https://www.mattskoipond.com"
+          href="https://www.instagram.com/markbeck_photography/"
           target="_blank"
           rel="noopener noreferrer"
         >check it out!</a>
@@ -14,9 +14,10 @@
       <p>
         I also like to just create things for fun,
         trying out new technologies and tools to improve myself
-        as a developer and stay up to date with current tech. This has led me to building
-        some fun Alexa Skills for the Amazon Echo, mobile apps using NativeScript for both iOS and Android,
-        as well as countless websites.
+        as an engineer and also grow my overall knowledge and skills.
+        My current personal project is to learn to build a VR world from
+        scratch and learn the 3D modeling to populate the world.
+
       </p>
     </div>
   </section>

@@ -1,4 +1,4 @@
-service: mattmitchell-dev
+service: markbeck-dev
 
 plugins:
   - serverless-sync-s3
@@ -12,16 +12,16 @@ provider:
   stage: ${opt:stage, ''}
 
 custom:
-  name: mattmitchell-dev
+  name: markbeck-dev
   websiteBucketName: ${self:custom.name}-${self:provider.stage}
   hostedZoneNameMap:
-    prod: mattmitchell.dev.
+    prod: markbeck.dev.
   domainMap:
-    prod: mattmitchell.dev
+    prod: markbeck.dev
   certificateArnMap:
     prod: arn:aws:acm:us-east-1:205844185710:certificate/a88b723c-4782-4675-a44f-9c4603867490
   cloudfrontInvalidate:
-    distributionIdKey: "MattMitchellDevCloudFrontDistributionId"
+    distributionIdKey: "MarkBeckDevCloudFrontDistributionId"
     items:
       - "/*"
   syncS3:
@@ -30,14 +30,14 @@ custom:
 
 resources:
   Resources:
-    MattMitchellDevCloudFrontDistribution:
+    MarkBeckDevCloudFrontDistribution:
       Type: AWS::CloudFront::Distribution
       Properties:
         DistributionConfig:
           Origins:
             - Id: ${self:custom.name}-${self:provider.stage} ## An identifier for the origin which must be unique within the distribution.
               DomainName:
-                "Fn::GetAtt": [MattMitchellDevUIBucket, DomainName]
+                "Fn::GetAtt": [MarkBeckDevUIBucket, DomainName]
               S3OriginConfig:
                 OriginAccessIdentity:
                   "Fn::Join":
@@ -45,7 +45,7 @@ resources:
                       "",
                       [
                         "origin-access-identity/cloudfront/",
-                        { Ref: MattMitchellDevUIOriginAccessIdentity },
+                        { Ref: MarkBeckDevUIOriginAccessIdentity },
                       ],
                     ]
           Enabled: true
@@ -86,18 +86,18 @@ resources:
       Properties:
         AliasTarget:
           DNSName:
-            "Fn::GetAtt": [MattMitchellDevCloudFrontDistribution, DomainName]
+            "Fn::GetAtt": [MarkBeckDevCloudFrontDistribution, DomainName]
           EvaluateTargetHealth: false
           HostedZoneId: Z2FDTNDATAQYW2 # CloudFront Hosted Zone ID cloudfront.net (NOT CUSTOM DOMAIN)
         HostedZoneName: ${self:custom.hostedZoneNameMap.${self:provider.stage}}
         Name: ${self:custom.domainMap.${self:provider.stage}}
         Type: A
-    MattMitchellDevUIOriginAccessIdentity:
+    MarkBeckDevUIOriginAccessIdentity:
       Type: AWS::CloudFront::CloudFrontOriginAccessIdentity
       Properties:
         CloudFrontOriginAccessIdentityConfig:
           Comment: "CloudFrontOriginAccessIdentity for ${self:service}-${self:provider.stage}"
-    MattMitchellDevUIBucket:
+    MarkBeckDevUIBucket:
       Type: AWS::S3::Bucket
       Properties:
         BucketName: ${self:custom.websiteBucketName}
@@ -105,11 +105,11 @@ resources:
         WebsiteConfiguration:
           IndexDocument: index.html
           ErrorDocument: index.html
-    MattMitchellDevUIBucketPolicy:
+    MarkBeckDevUIBucketPolicy:
       Type: AWS::S3::BucketPolicy
       Properties:
         Bucket:
-          Ref: MattMitchellDevUIBucket
+          Ref: MarkBeckDevUIBucket
         PolicyDocument:
           Statement:
             - Action:
@@ -120,17 +120,17 @@ resources:
                   "Fn::Join":
                     [
                       "",
-                      ["arn:aws:s3:::", { Ref: MattMitchellDevUIBucket }, "/*"],
+                      ["arn:aws:s3:::", { Ref: MarkBeckDevUIBucket }, "/*"],
                     ],
                 }
               Principal:
                 CanonicalUser:
                   "Fn::GetAtt":
-                    [MattMitchellDevUIOriginAccessIdentity, S3CanonicalUserId]
+                    [MarkBeckDevUIOriginAccessIdentity, S3CanonicalUserId]
   Outputs:
-    MattMitchellDevCloudFrontDistributionId:
+    MarkBeckDevCloudFrontDistributionId:
       Value:
-        Ref: MattMitchellDevCloudFrontDistribution
-    MattMitchellDevCloudFrontDistributionDomainName:
+        Ref: MarkBeckDevCloudFrontDistribution
+    MarkBeckDevCloudFrontDistributionDomainName:
       Value:
-        "Fn::GetAtt": [MattMitchellDevCloudFrontDistribution, DomainName]
+        "Fn::GetAtt": [MarkBeckDevCloudFrontDistribution, DomainName]
