@@ -23,15 +23,7 @@ import {
   faLinux,
   faTwitter,
   faFacebook,
-  faLinkedin,
-  faHtml5,
-  faJsSquare,
-  faCss3Alt,
-  faAngular,
-  faNodeJs,
-  faSass,
-  faNpm,
-  faVuejs
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 import {
   FontAwesomeIcon
@@ -47,18 +39,10 @@ library.add(
   faFacebook,
   faLinkedin,
   faTrophy,
-  faHtml5,
-  faCss3Alt,
-  faJsSquare,
-  faAngular,
-  faNodeJs,
-  faSass,
-  faNpm,
   faRss,
   faClock,
   faCheck,
-  faAward,
-  faVuejs
+  faAward
 )
 
 export default function (Vue, {
