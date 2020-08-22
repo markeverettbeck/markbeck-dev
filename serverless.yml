@@ -19,7 +19,7 @@ custom:
   domainMap:
     prod: markbeck.dev
   certificateArnMap:
-    prod: arn:aws:acm:us-east-1:812080535189:certificate/b21eac7c-07eb-4fac-b7dc-25d246824e31
+    prod: arn:aws:acm:us-east-1:812080535189:certificate/4b4efade-3e41-40a7-b40f-a30f69d75cb4
   cloudfrontInvalidate:
     distributionIdKey: "MarkBeckDevCloudFrontDistributionId"
     items:
