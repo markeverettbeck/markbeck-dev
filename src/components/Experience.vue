@@ -51,7 +51,7 @@
           >Independently managing GCP infrastructure.</p>
           <p
             class="experience"
-          >Setup multiple Google Cloud Search for a mission critical information repository (internal and partnet accessible) and all of external facing sites for the Family of Companies.</p>
+          >Setup multiple Google Cloud Search for a mission critical information repository (internal and partner accessible) and all of external facing sites for the Family of Companies.</p>
           <p
             class="experience"
           >Spearheading training initiative for architects, infosec, and developers involved in search project.</p>
@@ -158,7 +158,7 @@
           >Worked with my mentor to build new hire ramp-up guide meant to cut new hire onboarding in half.</p>
           <p
             class="experience"
-          >Imaged and configured 150+ physical and vm servers accross multiple domains.</p>
+          >Imaged and configured 150+ physical and vm servers across multiple domains.</p>
           <p
             class="experience"
           >Helped develop multiple scripts to handle tasks such as making registry changes to on all servers, deploying "Black Box" performance monitor on all systems, database disk structure setup, and more.</p>
