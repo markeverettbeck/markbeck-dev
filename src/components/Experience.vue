@@ -4,6 +4,23 @@
       <h2 class="mb-5">Experience</h2>
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        <h3 class="mb-0">Founder & CEO</h3>
+        <div class="subheading mb-3"> Festival Parent</div>
+        <p>As the Founder and CEO of Festival Parent, I have been pivotal in establishing and growing an online retail platform that serves the needs of festival-goers worldwide. My role involves diverse responsibilities such as eCommerce management, supply chain and logistics, marketing and branding, customer support, content creation, and event planning and management. The highlights of my work include:</p>
+        <h5 class="mb-0">eCommerce Management and Logistics</h5>
+        <p class="experience">Steering the operations of our online store, managing inventory, and ensuring seamless shipping procedures.</p>
+        <h5 class="mb-0">Marketing and Branding</h5>
+        <p class="experience">Spearheading marketing initiatives to position Festival Parent as the go-to hub for festival essentials and information.</p>
+        <h5 class="mb-0">Customer Support</h5>
+        <p class="experience">Overseeing customer support operations to ensure prompt and satisfactory resolution of customer queries and concerns.</p>
+        <h5 class="mb-0">Content Creation</h5>
+        <p class="experience">Curating a comprehensive blog that provides insightful content on various festival-related subjects.</p>
+        <h5 class="mb-0">Event Planning/Management</h5>
+        <p class="experience">Planning and managing events, using my expertise and industry connections to create unforgettable festival experiences.</p>
+      </div>
+      
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
           <h3 class="mb-0">Cloud/Infrastructure Systems Engineer</h3>
           <div class="subheading mb-3"> Quicken Loans Inc.</div>
@@ -167,6 +184,7 @@
           <span class="text-primary">2014 - 2015</span>
         </div>
       </div>
+    </div>
     </div>
   </section>
 </template>

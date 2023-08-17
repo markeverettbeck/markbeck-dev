@@ -6,10 +6,10 @@
         <span class="text-primary">Beck</span>
       </h1>
       <div class="subheading mb-5">
-        Cloud/Infrastructure System Engineer
+        Cloud/Infrastructure Systems Engineer At Rocket Central
+        Chief Exective Officer at Festival Parent
         <p>
-          Metro Detroit Area, Michigan 
-          <br>(313) 618-3087 
+          Scottsdale, Arizona  
           <br><a
             href="mailto:markeverettbeck@gmail.com"
           >markeverettbeck@gmail.com</a>
